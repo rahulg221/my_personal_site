@@ -1,5 +1,5 @@
 .bgimage {
-    height: 75vh;
+    height: 100vh;
     background: radial-gradient(rgb(31, 31, 31), rgb(26, 26, 26));
     background-size:cover;
     position:relative;
