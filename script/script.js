@@ -8,3 +8,8 @@ window.onscroll = function() {
         header.classList.remove('navbarDark');
     }
 }
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
